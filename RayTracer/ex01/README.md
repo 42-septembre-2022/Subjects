@@ -21,7 +21,7 @@ int IntersectRaySphere(const Ray ray, const Sphere sphere);
 
 Resources utiles :
 - [Intersection d'une sphère avec une droite](https://www.youtube.com/watch?v=XA36h0EIMGY)
-- b = 2 * Dot(ray.origin, ray.direction) - Dot(sphere.center, sphere.radius)
+- b = 2 * (Dot(ray.origin, ray.direction) - Dot(sphere.center, ray.direction))
 - c = SelfDot(sphere.center - ray.origin) - sphere.radius²
 - delta = b² - 4ac
 - SelfDot(A) = Dot(A, A)
