@@ -19,6 +19,8 @@ int intersect_ray_sphere(const Ray ray, const Sphere sphere);
 
 *Faites des **tests unitaires**. Par pitié, par Odin ! Nom d'une pipe.*
 
+---
+
 Resources utiles :
 - [Intersection d'une sphère avec une droite](https://www.youtube.com/watch?v=XA36h0EIMGY)
 - b = 2 * (Dot(ray.origin, ray.direction) - Dot(sphere.center, ray.direction))

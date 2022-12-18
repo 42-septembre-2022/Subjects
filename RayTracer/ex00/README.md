@@ -44,5 +44,7 @@ pixels[1][2].color.green = 0;
 pixels[1][2].color.blue = 0;
 ```
 
+---
+
 Resources utiles :
 - [Image PPM](https://fr.wikipedia.org/wiki/Portable_pixmap#PPM)
