@@ -1,15 +1,15 @@
 # Fonction d'intersection rayon / sphère
 
 Dossier de rendu        : raytracer <br>
-Fichier de rendu        : struct.h, utils.c, headers.h <br>
+Fichier de rendu        : intersect.c, tests.c, struct.h, utils.c, headers.h <br>
 Fonctions autorisées    : 
 ---
 
-Écrire une foncntion qui prend en paramètres un rayon et une sphère, et retourne 1 s'il y a au moins une intersection. <br>
+Écrire une fonction qui prend en paramètres un rayon et une sphère, et retourne 1 s'il y a au moins une intersection. <br>
 
 Son prototype sera le suivant :<br>
 ```C
-int IntersectRaySphere(const Ray ray, const Sphere sphere);
+int intersect_ray_sphere(const Ray ray, const Sphere sphere);
 ```
 - Les rayons sont définis par une origine, et une direction ;
 - Les origines sont des Vector3 ;
