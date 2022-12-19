@@ -49,5 +49,5 @@ pixels[1][2].color.blue = 0;
 Resources utiles :
 - [Image PPM](https://fr.wikipedia.org/wiki/Portable_pixmap#PPM)
 
-Résultat attendu : ![image ppm](./result.png)
+Résultat attendu : <br>![image.ppm](./result.png)
 
